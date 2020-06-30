@@ -79,5 +79,10 @@ class MarkUp extends Thread{
 			
 		}
 	}
+
+
+	public static void main(String[] args) {
+		System.out.println("LOCK_STOCK_".concat("123"));
+	}
 }
 

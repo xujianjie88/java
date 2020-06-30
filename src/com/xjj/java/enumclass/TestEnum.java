@@ -1,6 +1,6 @@
 package com.xjj.java.enumclass;
 /**
- * 测试枚举
+ * 锟斤拷锟斤拷枚锟斤拷
  * @author Administrator
  *
  */
@@ -13,7 +13,7 @@ public class TestEnum {
 		
 		switch (aSeason) {
 		case AUTUMN:
-			System.out.println("春天来了");
+			System.out.println("锟斤拷锟斤拷锟斤拷锟斤拷");
 			break;
 		default:
 			break;
@@ -23,8 +23,6 @@ public class TestEnum {
 	enum Season{
 		SPRING,SUMMER,AUTUMN,WINTER
 	}
-	enum Week{
-		星期一,星期二,星期三,星期四,星期五
-	}
+
 
 }

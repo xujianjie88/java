@@ -1,4 +1,7 @@
 package com.xjj.java.map;
+
+import java.util.Collections;
+
 /**
  * 底层代码实现：Hashmap的底层是哈希表=数组+链表
  * 自定义Hashmap

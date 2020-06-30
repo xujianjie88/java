@@ -1,4 +1,4 @@
-package com.xjj.java.udp;
+package com.xjj.java.onlinechat;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,7 +30,6 @@ public class TalkSend03 implements Runnable{
 		this.reader = new BufferedReader(new InputStreamReader(System.in));
 		this.toIP = toIP;
 		this.toPort = toPort;
-
 	}
 	
 	

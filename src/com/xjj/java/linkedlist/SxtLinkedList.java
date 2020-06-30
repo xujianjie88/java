@@ -1,4 +1,7 @@
 package com.xjj.java.linkedlist;
+
+import java.util.LinkedList;
+
 /**
  * 自定义一个链表
  * @author Administrator
@@ -49,6 +52,8 @@ public class SxtLinkedList {
 		sxtLinkedList.add("b");
 		sxtLinkedList.add("c");
 		System.out.println(sxtLinkedList);
+
+		LinkedList<Object> objects = new LinkedList<>();
 	}
 
 }

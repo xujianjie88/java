@@ -30,7 +30,7 @@ public class LambdaTuiDao2 {
 }
 
 interface IInterest{
-	int lambda(int a,int b);
+	int lambda(int a, int b);
 }
 
 //Íâ²¿Àà

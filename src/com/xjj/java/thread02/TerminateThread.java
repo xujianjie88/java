@@ -1,5 +1,7 @@
 package com.xjj.java.thread02;
 
+import org.junit.internal.runners.TestClass;
+
 /**
  * 终止现成的两种方式
  * 1.线程正常进行，执行完毕

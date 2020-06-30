@@ -1,0 +1,31 @@
+总结一下：
+
+ArrayBlockingQueue异常：
+
+?1.1 插入->队列满时再进行添加数据会抛出IllegalStateException异常。
+
+? ? ? 代表方法：add()
+
+?1.2?移除->队列null时会抛出NoSuchElementException异常。
+
+? ? ? ?代表方法：remove(),element()
+
+ArrayBlockingQueue阻塞：
+
+? 1.1?插入->队列满再添加数据会堵塞
+
+? ? ? ??代表方法：put()
+
+? 1.2?移除并获取->队列null时会堵塞
+
+? ? ? ??代表方法：take()
+
+ArrayBlockingQueue非阻塞：
+
+? 1.1?插入->队列满时再进行添加，就返回false
+
+? ? ? ?代表方法：offer()
+
+? 1.2?移除并获取->队列为null,返回null
+
+? ? ? ??代表方法：poll()，peek()

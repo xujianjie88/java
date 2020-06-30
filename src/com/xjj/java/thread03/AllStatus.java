@@ -2,10 +2,9 @@ package com.xjj.java.thread03;
 
 import java.lang.Thread.State;
 
-import org.junit.experimental.theories.Theories;
 
 /**
- * Ïß³ÌµÄËùÓÐ×´Ì¬
+ * ï¿½ß³Ìµï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬
  * @author Administrator
  *
  */
@@ -31,7 +30,7 @@ public class AllStatus {
 		state = thread.getState();
 		System.out.println(state);//RUNNABLE
 	
-	     while(state!=Thread.State.TERMINATED) {
+	     while(state!= State.TERMINATED) {
 	    	Thread.sleep(200);
 	    	state = thread.getState();
 	 		System.out.println(state);//TIMED_WAITING
