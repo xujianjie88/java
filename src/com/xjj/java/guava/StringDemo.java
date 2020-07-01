@@ -1,6 +1,5 @@
 package com.xjj.java.guava;
 
-import com.google.common.base.Objects;
 
 public class StringDemo {
 

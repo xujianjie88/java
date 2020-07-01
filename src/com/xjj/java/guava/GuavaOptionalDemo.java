@@ -2,6 +2,8 @@ package com.xjj.java.guava;
 
 
 import com.google.common.base.Optional;
+
+
 /**
  * guava的Optional类似于Java 8新增的Optional类，都是用来处理null的，不过guava的是抽象类，其实现类为Absent和Present，而java.util的是final类。其中一部分方法名是相同的。
  *
