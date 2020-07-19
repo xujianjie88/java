@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="asm-3.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cglib-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-28.0-jre.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

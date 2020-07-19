@@ -1,35 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="" />
+    <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/AbsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/BJFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/LDFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/BJPepeerPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/LDCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/LDPepeerPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/BJOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/LDOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/BJPepeerPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/LDCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/LDPepeerPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/OrderPizza2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/pizza/GreekPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/AutoInc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Bool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Equivalence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Literals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/MathOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Precedence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/equals/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e1I7pegcjezpXzbXyuEPXUrK6P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/xjj/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xjj.java.designpattern.factory.factorymethod" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\java\src\com\xjj\java\designpattern\factory\absfactory\pizza" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,13 +120,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.lambda.TestLambda" />
+  <component name="RunManager" selected="Application.PizzaStore (2)">
+    <configuration name="Bool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.operator.Bool" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.lambda.*" />
+          <option name="PATTERN" value="com.xjj.java.operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Literals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.operator.Literals" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.factory.factorymethod.order.PizzaStore" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.designpattern.factory.factorymethod.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.factory.absfactory.order.PizzaStore" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.designpattern.factory.absfactory.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.factory.simplefactory.order.PizzaStore" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.designpattern.factory.simplefactory.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,7 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLambda" />
+        <item itemvalue="Application.PizzaStore (2)" />
+        <item itemvalue="Application.PizzaStore (1)" />
+        <item itemvalue="Application.PizzaStore" />
+        <item itemvalue="Application.Literals" />
+        <item itemvalue="Application.Bool" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +209,11 @@
       <workItem from="1564361774362" duration="540000" />
       <workItem from="1564362474149" duration="3140000" />
       <workItem from="1593482510176" duration="604000" />
+      <workItem from="1593926590542" duration="4174000" />
+      <workItem from="1594436815962" duration="1940000" />
+      <workItem from="1594738667242" duration="2824000" />
+      <workItem from="1595033669208" duration="2527000" />
+      <workItem from="1595123650737" duration="5445000" />
     </task>
     <servers />
   </component>
@@ -87,93 +225,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/PizzaStore.java</url>
+          <line>11</line>
+          <properties class="com.xjj.java.designpattern.factory.factorymethod.order.PizzaStore" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
