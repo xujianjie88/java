@@ -1,4 +1,4 @@
-package com.xjj.java.designpattern.segregation;
+package com.xjj.java.designpattern.principle.segregation;
 
 public class Segregation1 {
 

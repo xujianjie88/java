@@ -48,13 +48,14 @@ public class MyClassLoader extends ClassLoader {
         return bs;
     }
 
+
+
 //    //这里实现自己的加载逻辑
 //    @Override
 //    protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException {
 //        //....打破双亲委派,执行自己定义的逻辑 (注意)
 //        return findClass(name);
 //    }
-
     @Override
     public String toString() {
         return "MyClassLoader{" +
@@ -63,7 +64,6 @@ public class MyClassLoader extends ClassLoader {
     }
 
     public static void main(String[] args) {
-        //
         MyClassLoader classLoader = new MyClassLoader(MyClassLoader.class.getClassLoader(), "MyClassLoader");
         try {
             Class c = classLoader.loadClass("com.xjj.java.classloader.Test");

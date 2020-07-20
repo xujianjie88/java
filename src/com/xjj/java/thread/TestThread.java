@@ -7,7 +7,7 @@ package com.xjj.java.thread;
  *
  */
 public class TestThread extends Thread{
-	
+
 	/**
 	 * 线程的入口点
 	 */
@@ -19,7 +19,7 @@ public class TestThread extends Thread{
 	}
 	
 	public static void main(String[] args) {
-		
+
 		TestThread thread = new TestThread();
 		//启动
 		thread.start();//不保证立即执行，由cpu调用
