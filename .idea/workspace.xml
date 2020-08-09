@@ -2,44 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/AbsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/BJFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/LDFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/OrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/order/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/BJCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/BJPepeerPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/LDCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/LDPepeerPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/BJOrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/LDOrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/OrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/BJCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/BJPepeerPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/LDCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/LDPepeerPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/OrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/OrderPizza2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/pizza/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/pizza/GreekPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/AutoInc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Bool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Equivalence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Literals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/MathOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/Precedence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/operator/equals/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/DeepCloneTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/DeepPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/improve/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/zhan/TestZhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/zhan/TestZhan.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -86,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/absfactory/pizza" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SpringBootLearning-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xjj.java.designpattern.prototype.improve" />
       <recent name="com.xjj.java.designpattern.factory.factorymethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -120,13 +94,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PizzaStore (2)">
-    <configuration name="Bool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.operator.Bool" />
+  <component name="RunManager" selected="JUnit.TestZhan.main">
+    <configuration name="BlockThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.thread02.BlockThread2" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.operator.*" />
+          <option name="PATTERN" value="com.xjj.java.thread02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Literals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.operator.Literals" />
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.improve.Client" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.operator.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.prototype.improve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.factory.factorymethod.order.PizzaStore" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.deepclone.Client" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.designpattern.factory.factorymethod.order.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.prototype.deepclone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.factory.absfactory.order.PizzaStore" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.mianshi.Test" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.designpattern.factory.absfactory.order.*" />
+          <option name="PATTERN" value="com.xjj.java.mianshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,26 +147,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.factory.simplefactory.order.PizzaStore" />
+    <configuration name="TestZhan.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.designpattern.factory.simplefactory.order.*" />
+          <option name="PATTERN" value="com.xjj.java.zhan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xjj.java.zhan" />
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.zhan.TestZhan" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PizzaStore (2)" />
-        <item itemvalue="Application.PizzaStore (1)" />
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.Literals" />
-        <item itemvalue="Application.Bool" />
+        <item itemvalue="JUnit.TestZhan.main" />
+        <item itemvalue="Application.BlockThread2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,8 +190,24 @@
       <workItem from="1594436815962" duration="1940000" />
       <workItem from="1594738667242" duration="2824000" />
       <workItem from="1595033669208" duration="2527000" />
-      <workItem from="1595123650737" duration="5445000" />
+      <workItem from="1595123650737" duration="11064000" />
+      <workItem from="1595643020065" duration="1877000" />
+      <workItem from="1595652021395" duration="17000" />
+      <workItem from="1596376917892" duration="633000" />
+      <workItem from="1596430533408" duration="738000" />
+      <workItem from="1596547479917" duration="1475000" />
+      <workItem from="1596587137467" duration="1708000" />
+      <workItem from="1596689766860" duration="629000" />
+      <workItem from="1596726082682" duration="660000" />
     </task>
+    <task id="LOCAL-00001" summary="java设计模式的工厂模式">
+      <created>1595139458818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595139458818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +225,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java设计模式的工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="java设计模式的工厂模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

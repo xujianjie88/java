@@ -13,6 +13,10 @@ public class TestZhan {
     @Test
     public void main(){
 
+        String s = "http://localhost:8084/user-service/user/dologin";
+        boolean contains = s.contains("/user/dologin");
+        System.out.println(contains);
+
         new HashMap<>();
             test1();
            System.out.println("main 潤崩。。。。");
