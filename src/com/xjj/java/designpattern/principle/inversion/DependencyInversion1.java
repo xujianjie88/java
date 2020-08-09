@@ -1,4 +1,4 @@
-package com.xjj.java.designpattern.inversion;
+package com.xjj.java.designpattern.principle.inversion;
 
 /**
  * “¿¿µµπ÷√‘≠‘Ú
@@ -27,4 +27,6 @@ class Person{
     public void receive(Email email){
         System.out.println(email.getInfo());
     }
+
+
 }

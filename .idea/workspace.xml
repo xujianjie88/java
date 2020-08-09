@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/DeepCloneTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/DeepPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/improve/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/improve/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/Liskov/Liskov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/Liskov/improve/LiskovImprove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/demeter/DemeterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/demeter/improve/DemeterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/ocp/Ocp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/ocp/improve/OcpImprove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/singleton/egger/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/singleton/lazy/safe/SynchronizeLazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/singleton/lazy/unsafe/LazySingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/singleton/lazy/volatile/SynchronizeLazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/zhan/TestZhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/zhan/TestZhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/classloader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/inversion/DependencyInversion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/inversion/DependencyInversion1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/inversion/DependencyInversion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/inversion/DependencyInversion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/segregation/Segregation1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/segregation/Segregation1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/segregation/Segregation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/segregation/Segregation2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/thread/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/thread/TestThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +66,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SpringBootLearning-master" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/xjj/java/designpattern/singleton/lazy/volatile" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,18 +76,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xjj.java.designpattern.prototype.improve" />
-      <recent name="com.xjj.java.designpattern.factory.factorymethod" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xjj.java.designpattern.inversion" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\java\src\com\xjj\java\designpattern\factory\absfactory\pizza" />
+      <recent name="D:\java\src\com\xjj\java\designpattern\singleton\lazy\volatile" />
+      <recent name="D:\java\src\com\xjj\java\designpattern\singleton\lazy\safe" />
+      <recent name="D:\java\src\com\xjj\java\designpattern\demeter\improve" />
+      <recent name="D:\java\lib" />
+      <recent name="D:\java\src\com\xjj\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,13 +106,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestZhan.main">
-    <configuration name="BlockThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.thread02.BlockThread2" />
+  <component name="RunManager" selected="Application.SingletonTest">
+    <configuration name="DemeterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.principle.demeter.DemeterTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.thread02.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.principle.demeter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.improve.Client" />
+    <configuration name="LazySingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.singleton.lazy.unsafe.LazySingletonTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.designpattern.prototype.improve.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.singleton.lazy.unsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.deepclone.Client" />
+    <configuration name="Ocp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.principle.ocp.Ocp" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.designpattern.prototype.deepclone.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.principle.ocp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.mianshi.Test" />
+    <configuration name="OcpImprove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.principle.ocp.improve.OcpImprove" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.mianshi.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.principle.ocp.improve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,29 +159,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestZhan.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.singleton.egger.unsafe.SingletonTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.zhan.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.singleton.egger.unsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xjj.java.zhan" />
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.zhan.TestZhan" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestZhan.main" />
-        <item itemvalue="Application.BlockThread2" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.LazySingletonTest" />
+        <item itemvalue="Application.DemeterTest" />
+        <item itemvalue="Application.OcpImprove" />
+        <item itemvalue="Application.Ocp" />
       </list>
     </recent_temporary>
   </component>
@@ -185,29 +194,68 @@
       <updated>1564361771031</updated>
       <workItem from="1564361774362" duration="540000" />
       <workItem from="1564362474149" duration="3140000" />
-      <workItem from="1593482510176" duration="604000" />
-      <workItem from="1593926590542" duration="4174000" />
-      <workItem from="1594436815962" duration="1940000" />
-      <workItem from="1594738667242" duration="2824000" />
-      <workItem from="1595033669208" duration="2527000" />
-      <workItem from="1595123650737" duration="11064000" />
-      <workItem from="1595643020065" duration="1877000" />
-      <workItem from="1595652021395" duration="17000" />
-      <workItem from="1596376917892" duration="633000" />
-      <workItem from="1596430533408" duration="738000" />
-      <workItem from="1596547479917" duration="1475000" />
-      <workItem from="1596587137467" duration="1708000" />
-      <workItem from="1596689766860" duration="629000" />
-      <workItem from="1596726082682" duration="660000" />
+      <workItem from="1593482510176" duration="2230000" />
+      <workItem from="1593570680148" duration="9369000" />
+      <workItem from="1593657520432" duration="9062000" />
+      <workItem from="1593759001459" duration="176000" />
+      <workItem from="1593997021149" duration="10143000" />
+      <workItem from="1594026354677" duration="3127000" />
+      <workItem from="1594083664092" duration="6408000" />
+      <workItem from="1594171029065" duration="8914000" />
+      <workItem from="1594255933733" duration="3395000" />
+      <workItem from="1594281487869" duration="952000" />
+      <workItem from="1594342336660" duration="3127000" />
+      <workItem from="1594365306736" duration="1235000" />
+      <workItem from="1594698225473" duration="7015000" />
+      <workItem from="1594774746902" duration="183000" />
+      <workItem from="1594794073643" duration="8713000" />
+      <workItem from="1594863507844" duration="14475000" />
+      <workItem from="1594948453548" duration="2247000" />
+      <workItem from="1595210371116" duration="538000" />
     </task>
-    <task id="LOCAL-00001" summary="java设计模式的工厂模式">
-      <created>1595139458818</created>
+    <task id="LOCAL-00001" summary="注解的使用">
+      <created>1593483357378</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1595139458818</updated>
+      <updated>1593483357378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CountDownLatch的简单使用">
+      <created>1593571496105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593571496105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java的左右移运算">
+      <created>1594003882487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594003882487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java的类加载器">
+      <created>1594171093130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594171093130</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java栈内存不足的报错">
+      <created>1594715723993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594715723993</updated>
+    </task>
+    <task id="LOCAL-00006" summary="java的设计模式原则，单一，接口隔离，依赖倒置">
+      <created>1594803736785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594803736785</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,21 +275,125 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java设计模式的工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="java设计模式的工厂模式" />
+    <MESSAGE value="注解的使用" />
+    <MESSAGE value="CountDownLatch的简单使用" />
+    <MESSAGE value="java的左右移运算" />
+    <MESSAGE value="java的类加载器" />
+    <MESSAGE value="java栈内存不足的报错" />
+    <MESSAGE value="java的设计模式原则，单一，接口隔离，依赖倒置" />
+    <option name="LAST_COMMIT_MESSAGE" value="java的设计模式原则，单一，接口隔离，依赖倒置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/factorymethod/order/PizzaStore.java</url>
-          <line>11</line>
-          <properties class="com.xjj.java.designpattern.factory.factorymethod.order.PizzaStore" method="main">
+          <url>file://$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo.java</url>
+          <line>25</line>
+          <properties class="com.xjj.java.countdownlatch.CountDownLatchDemo" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/xjj/java/classloader/MyClassLoader.java</url>
+          <line>65</line>
+          <properties class="com.xjj.java.classloader.MyClassLoader" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/xjj/java/designpattern/principle/Liskov/Liskov.java</url>
+          <line>5</line>
+          <properties class="com.xjj.java.designpattern.Liskov.Liskov" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

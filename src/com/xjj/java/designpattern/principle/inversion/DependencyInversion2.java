@@ -1,4 +1,4 @@
-package com.xjj.java.designpattern.inversion;
+package com.xjj.java.designpattern.principle.inversion;
 
 public class DependencyInversion2 {
 

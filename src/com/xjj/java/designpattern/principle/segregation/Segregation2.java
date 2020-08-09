@@ -1,4 +1,4 @@
-package com.xjj.java.designpattern.segregation;
+package com.xjj.java.designpattern.principle.segregation;
 
 /**
  * 接口隔离原则
