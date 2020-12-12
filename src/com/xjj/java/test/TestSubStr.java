@@ -7,6 +7,8 @@ package com.xjj.java.test;
  **/
 public class TestSubStr {
 
+    private String num;
+
     public static void main(String[] args) {
         String chineseStr = "GB 2760-2014 食品安全国家标准 食品添加剂使用标准";
         String charStr = "GB 2760-2014 食品安全国家标准 食品添加剂使用标准";

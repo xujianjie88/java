@@ -45,7 +45,6 @@ public class WangMeiLiProxy implements InvocationHandler{
 		h:　　一个InvocationHandler对象，表示的是当我这个动态代理对象在调用方法的时候，会关联到哪一个InvocationHandler对象上
 	 * @return
 	 */
-	
 	public Object getProxyInstance() {
 		return Proxy.newProxyInstance(gilr.getClass().getClassLoader(),gilr.getClass().getInterfaces(), this);
 	}
