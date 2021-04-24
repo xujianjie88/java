@@ -1,4 +1,7 @@
 package com.xjj.java.thread02;
+
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * join合并线程，插队线程
  * @author Administrator

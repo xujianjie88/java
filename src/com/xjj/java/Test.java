@@ -9,6 +9,16 @@ public class Test {
 
 //    public Integer num = 10;
 
+    public Boolean getIsDegrade() {
+        return isDegrade;
+    }
+
+    public void setIsDegrade(Boolean degrade) {
+        isDegrade = degrade;
+    }
+
+    private Boolean isDegrade;
+
     public static void main(String[] args) {
         List<Integer> integers = Arrays.asList(1,2,4);
         Test test = new Test();
