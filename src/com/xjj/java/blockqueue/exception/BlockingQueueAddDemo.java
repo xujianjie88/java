@@ -16,7 +16,6 @@ public class BlockingQueueAddDemo {
             for (int i = 0; i < queueSize + 1; i++) {
                 queue.add(i);
                 System.out.println("向队列中添加元素，队列剩余空间：" + (queueSize - queue.size()));
-
             }
         }
     }

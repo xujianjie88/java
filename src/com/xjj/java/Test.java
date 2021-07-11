@@ -1,9 +1,6 @@
 package com.xjj.java;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class Test {
 
@@ -35,5 +32,34 @@ public class Test {
         System.out.println(Thread.currentThread().getName()+":"+num);
         num--;
         System.out.println(Thread.currentThread().getName()+":"+num);
+    }
+
+    /**
+     *
+     */
+    @org.junit.Test
+    public void testArrayListAndLinkedListInsertMethod(){
+        insertByList();
+        insertByLinkedList();
+    }
+
+    private void insertByList() {
+        long startTime = System.currentTimeMillis();
+        List<String> strList = new ArrayList<>();
+        for (int i=0;i<10000;i++){
+            strList.add(i+"");
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("arraylist insert cost time£º"+(endTime-startTime));
+    }
+
+    private void insertByLinkedList() {
+        long startTime = System.currentTimeMillis();
+        List<String> strList = new LinkedList<>();
+        for (int i=0;i<10000;i++){
+            strList.add(i+"");
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("linkedlist insert cost time£º"+(endTime-startTime));
     }
 }
