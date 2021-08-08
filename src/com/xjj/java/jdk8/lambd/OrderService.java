@@ -1,4 +1,4 @@
-package com.xjj.java.jdk8.test01;
+package com.xjj.java.jdk8.lambd;
 
 /**
  * @description:

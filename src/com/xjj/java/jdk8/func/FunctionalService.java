@@ -1,4 +1,4 @@
-package com.xjj.java.jdk8.test02;
+package com.xjj.java.jdk8.func;
 
 /**
  * @description:被该注解@FunctionalInterface修饰的接口，只能有一个抽象方法
