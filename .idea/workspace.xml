@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="字符串截取">
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/suanfa/sort/SortClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/volitile/VolatileTest.java" afterDir="false" />
+    <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/jvm/JVMStruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/ForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/singleIton/比较.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/singleIton/比较.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/dynamicproxy/cglib/CglibProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/dynamicproxy/cglib/CglibProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,13 +102,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolatileTest">
-    <configuration name="SortClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.suanfa.sort.SortClass" />
+  <component name="RunManager" selected="Application.CglibProxyTest">
+    <configuration name="CglibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.dynamicproxy.cglib.CglibProxyTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.suanfa.sort.*" />
+          <option name="PATTERN" value="com.xjj.java.dynamicproxy.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnModifyCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.collection.UnModifyCollection" />
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.mianshi.ForTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.collection.*" />
+          <option name="PATTERN" value="com.xjj.java.mianshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.mianshi.TestNode" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.mianshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,33 +155,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGeneric.testGenericMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.culI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.genericetype.*" />
+          <option name="PATTERN" value="com.xjj.java.mianshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xjj.java.genericetype" />
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.genericetype.TestGeneric" />
-      <option name="METHOD_NAME" value="testGenericMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGeneric.testTongPeiFu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjj.java.genericetype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xjj.java.genericetype" />
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.genericetype.TestGeneric" />
-      <option name="METHOD_NAME" value="testTongPeiFu" />
+      <option name="PACKAGE_NAME" value="com.xjj.java.mianshi" />
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.mianshi.Test" />
+      <option name="METHOD_NAME" value="culI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CglibProxyTest" />
+        <item itemvalue="Application.ForTest" />
+        <item itemvalue="Application.TestNode" />
+        <item itemvalue="JUnit.Test.culI" />
         <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.SortClass" />
-        <item itemvalue="JUnit.TestGeneric.testTongPeiFu" />
-        <item itemvalue="JUnit.TestGeneric.testGenericMethod" />
-        <item itemvalue="Application.UnModifyCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +253,11 @@
       <workItem from="1649125892662" duration="3455000" />
       <workItem from="1649220491870" duration="2133000" />
       <workItem from="1649247938703" duration="735000" />
-      <workItem from="1649412324027" duration="3630000" />
+      <workItem from="1649412324027" duration="4133000" />
+      <workItem from="1649473691120" duration="1432000" />
+      <workItem from="1649738987531" duration="14476000" />
+      <workItem from="1649817400313" duration="3248000" />
+      <workItem from="1649918220883" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="注解的使用">
       <created>1593483357378</created>
@@ -332,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624631009878</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="新增volatile">
+      <created>1649415981385</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1649415981385</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +374,8 @@
     <MESSAGE value="新增comparable和comparator比较！" />
     <MESSAGE value="新增策略模式相关代码" />
     <MESSAGE value="新增捕获多线程异常信息的类！" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增捕获多线程异常信息的类！" />
+    <MESSAGE value="新增volatile" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增volatile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,6 +395,11 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/xjj/java/mianshi/Node.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

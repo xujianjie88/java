@@ -24,4 +24,19 @@ public class Test {
 
     }
 
+    /**
+     * i++和++i的区别
+     */
+    @org.junit.Test
+    public void culI(){
+        int i = 2;
+        int j = i++;
+//        int j = ++i;
+        System.out.println("i的值为:"+i+"j的值为:"+j);
+    }
+
+
+
+
+
 }
