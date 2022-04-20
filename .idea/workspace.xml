@@ -109,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HandlerChainTest">
+  <component name="RunManager" selected="Application.TestSubStr">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.improve.Client" />
       <module name="java" />
@@ -129,19 +129,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjj.java.designpattern.prototype.deepclone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.enums.EnumOne" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjj.java.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +162,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.test.TestSubStr" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSubStr" />
         <item itemvalue="Application.HandlerChainTest" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.EnumOne" />
       </list>
     </recent_temporary>
   </component>
