@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="新增面试相关题目">
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/StrTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/ValueDeliverOrObjDeliver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/suanfa/sort/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/trycatchfinally/FinallyTest.java" afterDir="false" />
+    <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/CollegeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/DepartmentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/PurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/SchoolMasterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/ViceSchoolMasterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/需求.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/classloader/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/factory/simplefactory/order/SimpleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/deepclone/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/hashcodeequals/NormalHashCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/hashcodeequals/NormalHashCodeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +43,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -58,6 +57,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -67,7 +67,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,15 +83,15 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xjj.java.designpattern.inversion" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\java\src\com\xjj\java\designpattern\responsibilitychain" />
       <recent name="E:\code\java" />
       <recent name="D:\java\java" />
       <recent name="D:\java\src\com\xjj\java\designpattern\singleton\lazy\volatile" />
       <recent name="D:\java\src\com\xjj\java\designpattern\singleton\lazy\safe" />
-      <recent name="D:\java\src\com\xjj\java\designpattern\demeter\improve" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.xjj.java.designpattern.inversion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +106,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumOne">
+  <component name="RunManager" selected="Application.HandlerChainTest">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.improve.Client" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjj.java.designpattern.prototype.improve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.prototype.deepclone.Client" />
       <module name="java" />
@@ -133,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.trycatchfinally.FinallyTest" />
+    <configuration name="HandlerChainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.responsibilitychain.test.HandlerChainTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.trycatchfinally.*" />
+          <option name="PATTERN" value="com.xjj.java.designpattern.responsibilitychain.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,25 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.classloader.MyClassLoader" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.string.Test" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.mianshi.TestA" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjj.java.mianshi.*" />
+          <option name="PATTERN" value="com.xjj.java.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnumOne" />
-        <item itemvalue="Application.FinallyTest" />
-        <item itemvalue="Application.MyClassLoader" />
+        <item itemvalue="Application.HandlerChainTest" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.TestA" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.EnumOne" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,8 @@
       <workItem from="1649817400313" duration="3248000" />
       <workItem from="1649918220883" duration="3878000" />
       <workItem from="1649991519433" duration="4879000" />
-      <workItem from="1650074979231" duration="10462000" />
+      <workItem from="1650074979231" duration="12781000" />
+      <workItem from="1650329718001" duration="7355000" />
     </task>
     <task id="LOCAL-00001" summary="注解的使用">
       <created>1593483357378</created>
@@ -353,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649991604014</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="新增枚举类相关">
+      <created>1650162586714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650162586714</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +394,8 @@
     <MESSAGE value="新增捕获多线程异常信息的类！" />
     <MESSAGE value="新增volatile" />
     <MESSAGE value="新增面试相关题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增面试相关题目" />
+    <MESSAGE value="新增枚举类相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增枚举类相关" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
