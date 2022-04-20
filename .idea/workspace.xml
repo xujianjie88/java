@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/CollegeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/DepartmentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/PurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/SchoolMasterHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/ViceSchoolMasterHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/需求.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/PurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/PurchaseRequest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +48,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1e1I7pegcjezpXzbXyuEPXUrK6P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -77,7 +80,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -261,7 +264,7 @@
       <workItem from="1649918220883" duration="3878000" />
       <workItem from="1649991519433" duration="4879000" />
       <workItem from="1650074979231" duration="12781000" />
-      <workItem from="1650329718001" duration="7355000" />
+      <workItem from="1650329718001" duration="8523000" />
     </task>
     <task id="LOCAL-00001" summary="注解的使用">
       <created>1593483357378</created>
@@ -361,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650162586714</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="新增责任链模式">
+      <created>1650417100566</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650417100566</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +405,8 @@
     <MESSAGE value="新增volatile" />
     <MESSAGE value="新增面试相关题目" />
     <MESSAGE value="新增枚举类相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增枚举类相关" />
+    <MESSAGE value="新增责任链模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增责任链模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
