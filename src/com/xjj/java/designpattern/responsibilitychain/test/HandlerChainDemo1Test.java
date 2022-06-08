@@ -1,8 +1,8 @@
 package com.xjj.java.designpattern.responsibilitychain.test;
 
-import com.xjj.java.designpattern.responsibilitychain.*;
+import com.xjj.java.designpattern.responsibilitychain.demo1.*;
 
-public class HandlerChainTest {
+public class HandlerChainDemo1Test {
 
     public static void main(String[] args) {
         PurchaseRequest purchaseRequest = new PurchaseRequest(1, 15000, 1);

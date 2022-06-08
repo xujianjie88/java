@@ -1,4 +1,4 @@
-package com.xjj.java.designpattern.responsibilitychain;
+package com.xjj.java.designpattern.responsibilitychain.demo1;
 
 /**
  * ¸±Ð£³¤

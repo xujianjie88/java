@@ -1,21 +1,20 @@
-package com.xjj.java.designpattern.responsibilitychain;
+package com.xjj.java.designpattern.responsibilitychain.demo1;
 
 /**
- * 校长
+ *院长
  */
-public class SchoolMasterHandler extends Handler {
+public class CollegeHandler extends Handler {
 
-    public SchoolMasterHandler(String name) {
+    public CollegeHandler(String name) {
         super(name);
     }
 
     @Override
     public void processRequest(PurchaseRequest purchaseRequest) {
-        if (purchaseRequest.getPrice()>30000) {
+        if (5000 <= purchaseRequest.getPrice() && purchaseRequest.getPrice() <= 10000) {
             System.out.println("请求编号 id = " + purchaseRequest.getId() + "被" + this.name + "处理");
         }else {
             handler.processRequest(purchaseRequest);
         }
-
     }
 }

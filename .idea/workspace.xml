@@ -5,40 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/TestStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/abstracts/BaseAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/abstracts/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/context/ZtBfContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/context/ZtBfContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/ApiDataResolveHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/DataResolveHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/DataResolveType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/DubboDataResolveHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/IDataResolveHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/SqlDataResolveHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/BackUpFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/BigDataBackUpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/DefaultBackUpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/IBackUpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/MyContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/enums/BackUpStrategyEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/BackUpHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/BackUpStrategyEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/BigDataIBackUpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/DefaultIBackUpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/IBackUpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/enums/ZtBfContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/match/Matches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/match/Matches_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/match/PaintPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/oom/HeadOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/oom/vm_param.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/ChainPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckBlackFilterObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckParamFilterObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckRuleFilterObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckSecurityFilterObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/dto/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/dto/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/需求.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/array/TestArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/array/TestArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/improve/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/prototype/improve/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/CollegeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/CollegeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/DepartmentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/DepartmentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/PurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/PurchaseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/SchoolMasterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/SchoolMasterHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/ViceSchoolMasterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/ViceSchoolMasterHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainDemo1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/需求.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/需求.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +90,7 @@
       <recent name="E:\code\java\src\com\xjj\java\designpattern\responsibilitychain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\java\src\com\xjj\java\designpattern\responsibilitychain\demo1" />
       <recent name="E:\code\java\src\com\xjj\java\oom" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -297,7 +282,7 @@
       <workItem from="1653395961733" duration="2031000" />
       <workItem from="1653446254849" duration="817000" />
       <workItem from="1653475095839" duration="835000" />
-      <workItem from="1654670066949" duration="1362000" />
+      <workItem from="1654670066949" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="注解的使用">
       <created>1593483357378</created>
@@ -411,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650418990431</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加策略模式">
+      <created>1654671882201</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654671882201</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +437,8 @@
     <MESSAGE value="新增枚举类相关" />
     <MESSAGE value="新增责任链模式" />
     <MESSAGE value="修改pom文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改pom文件" />
+    <MESSAGE value="添加策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加策略模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
