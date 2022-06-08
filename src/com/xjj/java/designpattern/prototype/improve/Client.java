@@ -7,6 +7,7 @@ package com.xjj.java.designpattern.prototype.improve;
  **/
 public class Client {
 
+
     public static void main(String[] args) {
         System.out.println("使用原型模式克隆羊");
         Sheep sheep = new Sheep("tom", 11, "白色");
@@ -22,6 +23,7 @@ public class Client {
         System.out.println(sheep3);
         System.out.println(sheep4);
         System.out.println(sheep5);
+
     }
 
 }

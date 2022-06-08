@@ -5,7 +5,7 @@ import com.xjj.java.designpattern.responsibilitychain.*;
 public class HandlerChainTest {
 
     public static void main(String[] args) {
-        PurchaseRequest purchaseRequest = new PurchaseRequest(1, 6000, 1);
+        PurchaseRequest purchaseRequest = new PurchaseRequest(1, 15000, 1);
 
         DepartmentHandler departmentHandler = new DepartmentHandler("张主任");
         CollegeHandler collegeHandler = new CollegeHandler("李院长");
@@ -18,8 +18,7 @@ public class HandlerChainTest {
         viceSchoolMasterHandler.setHandler(schoolMasterHandler);
         schoolMasterHandler.setHandler(departmentHandler);
 
-
-//        departmentHandler.processRequest(purchaseRequest);
-        collegeHandler.processRequest(purchaseRequest);
+        departmentHandler.processRequest(purchaseRequest);
+//        collegeHandler.processRequest(purchaseRequest);
     }
 }

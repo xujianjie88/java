@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/context/ZtBfContext.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/context/ZtBfContext.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/context/ZtBfContextHolder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/context/ZtBfContextHolder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/ApiDataResolveHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/DataResolveHandlerFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/DataResolveType.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/DubboDataResolveHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/FixDataResolveHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/IDataResolveHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/handler/SqlDataResolveHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/designpattern/teamplate/enums/BackUpStrategyEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/enums/BackUpHandlerFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/enums/BackUpStrategyEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/enums/BigDataIBackUpHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/enums/DefaultIBackUpHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/enums/IBackUpHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/xjj/java/enums/ZtBfContext.java" charset="UTF-8" />
     <file url="file://F:/github/spring-framework/javase/src/main/java/annotation/Check.java" charset="UTF-8" />
     <file url="file://F:/github/spring-framework/javase/src/main/java/annotation/CheckAnnotationTest.java" charset="UTF-8" />
     <file url="file://F:/github/spring-framework/javase/src/main/java/annotation/User.java" charset="UTF-8" />

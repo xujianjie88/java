@@ -25,6 +25,7 @@ public class TestArrays {
 		 }
 		 //·½Ê½Èý
 		 String[] arr = new String[10];
+
 	}
 
 }
