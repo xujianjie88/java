@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/AbstractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/ChainPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckBlackFilterObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckParamFilterObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckRuleFilterObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/CheckSecurityFilterObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/dto/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/dto/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo2/需求.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/jdk8/func/FuncTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/CollegeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/CollegeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/DepartmentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/DepartmentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/PurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/PurchaseRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/SchoolMasterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/SchoolMasterHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/ViceSchoolMasterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/ViceSchoolMasterHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/test/HandlerChainDemo1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/需求.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/demo1/需求.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/jdk8/func/FunctionalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/jdk8/func/FunctionalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -71,13 +59,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/code/java/src/com/xjj/java/designpattern",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/java/src/com/xjj/java/designpattern&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.xjj.java.designpattern.inversion" />
@@ -99,14 +87,13 @@
       <recent name="com.xjj.java.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xjj.java.designpattern.teamplate.test.Main" />
+  <component name="RunManager" selected="Application.FuncTest">
+    <configuration name="FuncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xjj.java.jdk8.func.FuncTest" />
       <module name="java" />
-      <option name="VM_PARAMETERS" value="-Xms12m -Xmx13m -XX:+HeapDumpOnOutOfMemoryError" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xjj.java.designpattern.teamplate.test.*" />
+          <option name="PATTERN" value="com.xjj.java.jdk8.func.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +155,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FuncTest" />
       <item itemvalue="Application.ThreadDemo" />
       <item itemvalue="Application.Matches_Main" />
       <item itemvalue="Application.TestStr" />
       <item itemvalue="Application.com.xjj.java.oom.HeadOOM" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncTest" />
         <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.com.xjj.java.oom.HeadOOM" />
         <item itemvalue="Application.Matches_Main" />
         <item itemvalue="Application.TestStr" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +269,10 @@
       <workItem from="1653395961733" duration="2031000" />
       <workItem from="1653446254849" duration="817000" />
       <workItem from="1653475095839" duration="835000" />
-      <workItem from="1654670066949" duration="2285000" />
+      <workItem from="1654670066949" duration="4692000" />
+      <workItem from="1654741800347" duration="273000" />
+      <workItem from="1655888767491" duration="634000" />
+      <workItem from="1657188673697" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="注解的使用">
       <created>1593483357378</created>
@@ -403,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654671882201</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="新增责任链模式">
+      <created>1654672857301</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654672857301</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,10 +432,10 @@
     <MESSAGE value="新增volatile" />
     <MESSAGE value="新增面试相关题目" />
     <MESSAGE value="新增枚举类相关" />
-    <MESSAGE value="新增责任链模式" />
     <MESSAGE value="修改pom文件" />
     <MESSAGE value="添加策略模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加策略模式" />
+    <MESSAGE value="新增责任链模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增责任链模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

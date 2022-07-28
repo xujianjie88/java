@@ -6,7 +6,7 @@ package com.xjj.java.jdk8.func;
  * @create: 2021-07-18 21:01
  **/
 @FunctionalInterface
-public interface FunctionalService {
-    void fucn1();
+public interface FunctionalService<T> {
+    T fucn1();
 //    void fucn2();
 }
