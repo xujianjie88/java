@@ -9,36 +9,19 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class CountDownLatchDemo02 {
 
-    private static void testCountDownLatch() {
-        int corePoolSize = 20;
-        int maximumPoolSize = 20;
-        long keepAliveTime = 60;
-        int queueCapacity = 1000;
-        TimeUnit unit = TimeUnit.SECONDS;
 
-        BlockingQueue<Runnable> workQueue = null;
-        if (queueCapacity==0) {
-            workQueue = new SynchronousQueue<>();//同步队列
-        }
-        if (queueCapacity>0) {
-            workQueue = new LinkedBlockingQueue<>(queueCapacity);//有界队列
-        }
-        if (queueCapacity<0) {
-            workQueue = new LinkedBlockingQueue<>();//无界队列，可能将所有内存占满
-        }
+    public static void main(String[] args) {
+        ThreadPoolExecutor executorService = getThreadPoolExecutor();
+        new Thread(()->{
+            testCountDownLatch(executorService);
+        }).start();
 
-        ThreadFactory threadFactory = new MyDefaultThreadFactory("pool");
-        RejectedExecutionHandler handler = new ThreadPoolExecutor.AbortPolicy();
+        new Thread(()->{
+            testCountDownLatch(executorService);
+        }).start();
+    }
 
-        ThreadPoolExecutor executorService = new ThreadPoolExecutor(
-                corePoolSize,
-                maximumPoolSize,
-                keepAliveTime,
-                unit,
-                workQueue,
-                threadFactory,
-                handler);
-
+    private static void testCountDownLatch(ThreadPoolExecutor executorService) {
         System.out.println("程序执行开始");
         List<String> stringList = Lists.newArrayList();
         int maxThread = 400;
@@ -68,7 +51,8 @@ public class CountDownLatchDemo02 {
             }
 
             try {
-                countDownLatch.await();
+                // 加上超时时间是因为有可能线程数不够用，防止线程一致等待
+                countDownLatch.await(10,TimeUnit.SECONDS);
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
@@ -77,6 +61,37 @@ public class CountDownLatchDemo02 {
         System.out.println(resultList);
     }
 
+    private static ThreadPoolExecutor getThreadPoolExecutor() {
+        int corePoolSize = 20;
+        int maximumPoolSize = 300;
+        long keepAliveTime = 60;
+        int queueCapacity = 0;
+        TimeUnit unit = TimeUnit.SECONDS;
+
+        BlockingQueue<Runnable> workQueue = null;
+        if (queueCapacity==0) {
+            workQueue = new SynchronousQueue<>();//同步队列
+        }
+        if (queueCapacity>0) {
+            workQueue = new LinkedBlockingQueue<>(queueCapacity);//有界队列
+        }
+        if (queueCapacity<0) {
+            workQueue = new LinkedBlockingQueue<>();//无界队列，可能将所有内存占满
+        }
+
+        ThreadFactory threadFactory = new MyDefaultThreadFactory("pool");
+        RejectedExecutionHandler handler = new ThreadPoolExecutor.AbortPolicy();
+
+        ThreadPoolExecutor executorService = new ThreadPoolExecutor(
+                corePoolSize,
+                maximumPoolSize,
+                keepAliveTime,
+                unit,
+                workQueue,
+                threadFactory,
+                handler);
+        return executorService;
+    }
 
 
     static class MyDefaultThreadFactory implements ThreadFactory {
