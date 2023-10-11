@@ -12,19 +12,36 @@ import java.util.concurrent.TimeUnit;
 public class TestThreadPoolExecutor {
 
     public static void main(String[] args) {
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(10,
-                100,1, TimeUnit.SECONDS,new LinkedBlockingDeque<>());
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 2; i++) {
+            runTask();
+        }
+    }
+
+    private static void runTask() {
+
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(50,
+                1000,1, TimeUnit.SECONDS,new LinkedBlockingDeque<>(2000));
+
+        for (int i = 0; i < 1000; i++) {
             threadPoolExecutor.execute(new Runnable() {
                 @Override
                 public void run() {
                     System.out.println(Thread.currentThread().getName());
+                    doBusiness();
                     System.out.println("xujianjie");
                 }
             });
         }
         //¹Ø±ÕÏß³Ì³Ø
         threadPoolExecutor.shutdown();
+    }
+
+    private static void doBusiness() {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

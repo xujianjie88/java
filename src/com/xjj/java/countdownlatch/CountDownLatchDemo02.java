@@ -24,7 +24,7 @@ public class CountDownLatchDemo02 {
     private static void testCountDownLatch(ThreadPoolExecutor executorService) {
         System.out.println("程序执行开始");
         List<String> stringList = Lists.newArrayList();
-        int maxThread = 400;
+        int maxThread = 1000;
         for (int i = 0; i < maxThread; i++) {
             stringList.add(String.valueOf(i));
         }
@@ -52,7 +52,7 @@ public class CountDownLatchDemo02 {
 
             try {
                 // 加上超时时间是因为有可能线程数不够用，防止线程一致等待
-                countDownLatch.await(10,TimeUnit.SECONDS);
+                countDownLatch.await(15,TimeUnit.SECONDS);
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
@@ -81,6 +81,7 @@ public class CountDownLatchDemo02 {
 
         ThreadFactory threadFactory = new MyDefaultThreadFactory("pool");
         RejectedExecutionHandler handler = new ThreadPoolExecutor.AbortPolicy();
+//        RejectedExecutionHandler handler = new ThreadPoolExecutor.CallerRunsPolicy();
 
         ThreadPoolExecutor executorService = new ThreadPoolExecutor(
                 corePoolSize,

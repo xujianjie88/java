@@ -1,5 +1,6 @@
 package com.xjj.java.jdk8.streamapi;
 
+import java.util.HashMap;
 import java.util.stream.Stream;
 
 /**

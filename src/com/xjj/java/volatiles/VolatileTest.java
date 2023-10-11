@@ -1,4 +1,4 @@
-package com.xjj.java.volitile;
+package com.xjj.java.volatiles;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
@@ -26,13 +26,13 @@ public class VolatileTest {
         for (int j = 0; j < 10; j++) {
             new Thread(() -> {
                 // 没有加锁保证不了原子性,依旧是线程不安全
-//                volatileTest.increaseUnSafe();
+                volatileTest.increaseUnSafe();
                 // 加锁才能保证原子性
 //                volatileTest.increaseSafe();
                 // 乐观锁
 //                volatileTest.increaseByLock();
                 // AtomicInteger
-                volatileTest.increaseByAutoInteger();
+//                volatileTest.increaseByAutoInteger();
             }).start();
         }
     }
