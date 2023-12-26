@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="[feat] add">
-      <change afterPath="$PROJECT_DIR$/Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/类图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/juc/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestDigui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestFileInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestZhiChuangDi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/TestStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/TestStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/jdk8/streamapi/StreamReduceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/jdk8/streamapi/StreamReduceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/synchornizelizi/SynContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/synchornizelizi/SynContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/threadpool02/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/threadpool02/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/threapool03/TestThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/threapool03/TestThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/volitile/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/volatiles/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/file2/File1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/file2/File2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,10 +115,11 @@
       <recent name="E:\code\java\src\com\xjj\java\oom" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xjj.java.file2" />
+      <recent name="com.xjj.java.addfile" />
       <recent name="com.xjj.java.list" />
       <recent name="com.xjj.java.designpattern.handler" />
       <recent name="com.xjj.java.designpattern.teamplate.enums" />
-      <recent name="com.xjj.java.enums" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SemaphoreTest">
@@ -653,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增装饰着模式" />
     <MESSAGE value="字符串截取" />
     <MESSAGE value="新增comparable和comparator比较！" />
     <MESSAGE value="新增策略模式相关代码" />
@@ -678,7 +660,8 @@
     <MESSAGE value="[feat] add CountDownLatchDemo02" />
     <MESSAGE value="[feat] volatile保证多线程变量值可见性" />
     <MESSAGE value="[feat] add observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat] add observer" />
+    <MESSAGE value="[feat] add" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
