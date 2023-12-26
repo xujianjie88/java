@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="[feat] add">
-      <change afterPath="$PROJECT_DIR$/Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/designpattern/responsibilitychain/类图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/juc/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestDigui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestFileInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/TestZhiChuangDi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/addfile/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/addfile/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/addfile/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/TestStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/TestStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/countdownlatch/CountDownLatchDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/jdk8/streamapi/StreamReduceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/jdk8/streamapi/StreamReduceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/mianshi/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/synchornizelizi/SynContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/synchornizelizi/SynContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/threadpool02/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/threadpool02/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/threapool03/TestThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/threapool03/TestThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xjj/java/volitile/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xjj/java/volatiles/VolatileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +45,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master-new" />
+        <entry key="$PROJECT_DIR$" value="uat" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GitToolBoxStore">
@@ -77,12 +62,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1661404123" />
+                    <option name="branchName" value="feautre-2" />
+                    <option name="lastUsedInstant" value="1703594411" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master-new" />
-                    <option name="lastUsedInstant" value="1661404024" />
+                    <option name="branchName" value="uat" />
+                    <option name="lastUsedInstant" value="1703594360" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1703594246" />
                   </RecentBranch>
                 </list>
               </option>
@@ -214,11 +203,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.StreamReduceTest" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.TestDigui" />
         <item itemvalue="Application.TestZhiChuangDi" />
+        <item itemvalue="Application.TestDigui" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.StreamReduceTest" />
+        <item itemvalue="Application.SemaphoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -371,6 +360,8 @@
       <workItem from="1696678613777" duration="1478000" />
       <workItem from="1696917083005" duration="2634000" />
       <workItem from="1696999385096" duration="2358000" />
+      <workItem from="1701519442813" duration="943000" />
+      <workItem from="1703593651012" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="注解的使用">
       <created>1593483357378</created>
@@ -620,7 +611,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="uat" />
                       </list>
                     </value>
                   </entry>
@@ -636,6 +627,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="uat" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="master" />
