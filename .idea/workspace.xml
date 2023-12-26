@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa6cdd3-0159-4256-a43b-56a89653a376" name="Default Changelist" comment="[feat] add">
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/file2/File1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xjj/java/file2/File2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/xjj/java/addfile/Test1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/xjj/java/addfile/Test2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/xjj/java/addfile/Test3.java" afterDir="false" />
@@ -122,10 +124,11 @@
       <recent name="E:\code\java\src\com\xjj\java\oom" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xjj.java.file2" />
+      <recent name="com.xjj.java.addfile" />
       <recent name="com.xjj.java.list" />
       <recent name="com.xjj.java.designpattern.handler" />
       <recent name="com.xjj.java.designpattern.teamplate.enums" />
-      <recent name="com.xjj.java.enums" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SemaphoreTest">
@@ -649,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增装饰着模式" />
     <MESSAGE value="字符串截取" />
     <MESSAGE value="新增comparable和comparator比较！" />
     <MESSAGE value="新增策略模式相关代码" />
@@ -674,7 +676,8 @@
     <MESSAGE value="[feat] add CountDownLatchDemo02" />
     <MESSAGE value="[feat] volatile保证多线程变量值可见性" />
     <MESSAGE value="[feat] add observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat] add observer" />
+    <MESSAGE value="[feat] add" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
